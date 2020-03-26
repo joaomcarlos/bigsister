@@ -1,0 +1,195 @@
+<SmartAssemblyProject ProjectID="{df075135-5831-49e9-8adf-119643be2c0e}" Version="2.0">
+    <MainAssemblyFileName>..\..\..\Documents\Visual Studio 2008\Projects\MultiRelogger\MultiRelogger\bin\Debug\BigSister.exe</MainAssemblyFileName>
+    <FriendlyName>BigSister</FriendlyName>
+    <CompanyName>Big Productions</CompanyName>
+    <Configuration Name="Release">
+        <ApplicationName>BigSister</ApplicationName>
+        <Destination DestinationFileName=".\BigSister.exe" />
+        <Assemblies>
+            <Assembly AssemblyName="GlacialList, Culture=neutral, PublicKeyToken=null">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" />
+                    <MemberRefsProxy Proxy="1" />
+                    <ResourcesCompression Compress="1" />
+                    <StringsEncoding />
+                    <ResourcesPruning />
+                </Merging>
+                <Embedding />
+            </Assembly>
+            <Assembly AssemblyName="WoWLib, Culture=neutral, PublicKeyToken=null">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" />
+                    <MemberRefsProxy Proxy="1" />
+                    <StringsEncoding />
+                </Merging>
+                <Embedding />
+            </Assembly>
+            <Assembly AssemblyName="fasmdll_managed, Culture=neutral, PublicKeyToken=null">
+                <Merging Merge="0">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" />
+                    <MemberRefsProxy Proxy="1" />
+                    <StringsEncoding />
+                </Merging>
+                <Embedding Compress="1" Embed="1" Encrypt="0" />
+            </Assembly>
+            <Assembly AssemblyName="BigSister, Culture=neutral, PublicKeyToken=null">
+                <Merging>
+                    <ResourcesCompression Compress="1" />
+                    <MemberRefsProxy Proxy="1" />
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion>
+                            <Token Table="WholeType">
+                                <Assembly>BigSister</Assembly>
+                                <Module>BigSister.exe</Module>
+                                <Name>BasicSettings</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>BigSister</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>BigSister</Assembly>
+                                <Module>BigSister.exe</Module>
+                                <Name>BasicSettingsSaver</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>BigSister</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>BigSister</Assembly>
+                                <Module>BigSister.exe</Module>
+                                <Name>SaveSettings</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>BigSister</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>BigSister</Assembly>
+                                <Module>BigSister.exe</Module>
+                                <Name>BSController</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>BigSister</Namespace>
+                            </Token>
+                            <Token Table="Namespace">
+                                <Assembly>BigSister</Assembly>
+                                <Module>BigSister.exe</Module>
+                                <Namespace>BigSister.Properties</Namespace>
+                            </Token>
+                            <Token Table="Namespace">
+                                <Assembly>BigSister</Assembly>
+                                <Module>BigSister.exe</Module>
+                                <Namespace>MultiRelogger</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>BigSister</Assembly>
+                                <Module>BigSister.exe</Module>
+                                <Name>BabySitterSync</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>BigSister</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>BigSister</Assembly>
+                                <Module>BigSister.exe</Module>
+                                <Name>Program</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>BigSister</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>BigSister</Assembly>
+                                <Module>BigSister.exe</Module>
+                                <Name>Settings</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>BigSister</Namespace>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>BigSister</Assembly>
+                                <Module>BigSister.exe</Module>
+                                <Name>SettingsForm</Name>
+                                <ItemType>Class</ItemType>
+                                <Namespace>BigSister</Namespace>
+                            </Token>
+                        </Exclusion>
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" ObfuscationLevel="3" />
+                    <StringsEncoding />
+                    <ResourcesPruning />
+                </Merging>
+            </Assembly>
+            <Assembly AssemblyName="Ascend.Windows.Forms, Culture=neutral, PublicKeyToken=ecd86ece2d3eb46d">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" />
+                    <MemberRefsProxy Proxy="1" />
+                    <ResourcesCompression Compress="1" />
+                    <StringsEncoding />
+                    <ResourcesPruning />
+                </Merging>
+                <Embedding />
+            </Assembly>
+            <Assembly AssemblyName="Ascend, Culture=neutral, PublicKeyToken=25c7a393ba3f37cd">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" />
+                    <MemberRefsProxy Proxy="1" />
+                    <ResourcesCompression Compress="1" />
+                    <StringsEncoding />
+                    <ResourcesPruning />
+                </Merging>
+                <Embedding />
+            </Assembly>
+            <Assembly AssemblyName="Ascend.Resources, Culture=neutral, PublicKeyToken=9c9aecb37b1e03b6">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" />
+                    <MemberRefsProxy Proxy="1" />
+                    <ResourcesCompression Compress="1" />
+                    <StringsEncoding />
+                    <ResourcesPruning />
+                </Merging>
+                <Embedding />
+            </Assembly>
+        </Assemblies>
+        <Options>
+            <Obfuscation FieldsNameMangling="2" NameMangling="3" />
+            <ExceptionReporting ReportExceptions="0" />
+            <StrongNameSigning Sign="0" />
+            <OtherProtections AddIncorrectMetadata="1" AddMetadataStream="1" SuppressIldasm="1" />
+            <StringsEncoding Compress="1" Encode="0" UseCache="1" UseImprovedEncoding="1" />
+            <OtherOptimizations ManageMemory="1" SealClasses="1" />
+            <Debugging CreatePDB="0" />
+            <Troubleshooting SelfDiagnostic="0" />
+        </Options>
+    </Configuration>
+</SmartAssemblyProject>
